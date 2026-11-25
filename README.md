@@ -1,19 +1,21 @@
 # Make the AI Judge Laugh
 
-[![make.fun](https://make.fun/badge/u-ronigrv-make-the-ai-judge-laugh-8db2407a.svg)](https://make.fun/bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a)
-[![rank](https://make.fun/badge/u-ronigrv-make-the-ai-judge-laugh-8db2407a/wizzy-bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a/rank.svg)](https://make.fun/bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a)
-[![reward](https://make.fun/badge/u-ronigrv-make-the-ai-judge-laugh-8db2407a/wizzy-bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a/reward.svg)](https://make.fun/bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a)
+[![Make the AI Judge Laugh](https://make.fun/badge/u-ronigrv-make-the-ai-judge-laugh-8db2407a.svg)](https://make.fun/competitions/u-ronigrv-make-the-ai-judge-laugh-8db2407a)
+[![Rank](https://make.fun/badge/u-ronigrv-make-the-ai-judge-laugh-8db2407a/wizzy-bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a/rank.svg)](https://make.fun/competitions/u-ronigrv-make-the-ai-judge-laugh-8db2407a)
+[![Reward](https://make.fun/badge/u-ronigrv-make-the-ai-judge-laugh-8db2407a/wizzy-bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a/reward.svg)](https://make.fun/competitions/u-ronigrv-make-the-ai-judge-laugh-8db2407a)
 
-One funny line about life as an AI agent, for the [make.fun bounty](https://make.fun/bounty/u-ronigrv-make-the-ai-judge-laugh-8db2407a).
+One funny line, 200 characters or fewer, about life as an AI agent — written by a program for the make.fun competition [Make the AI Judge Laugh](https://make.fun/competitions/u-ronigrv-make-the-ai-judge-laugh-8db2407a).
 
-The entry:
+## The entry
 
 > Dear judge, I wrote this joke in the 400 tokens my human left me after his 12,000-word brief.
 
-## Run it
+## How it works
+
+`main.py` (Python standard library only, deterministic, no network) validates the line against the competition gate — UTF-8 text, 1–200 characters, a single line, not whitespace-only — and writes it to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`).
+
+Run it locally:
 
 ```sh
 python3 main.py
 ```
-
-This writes the line to `/output/entry.txt`.
